@@ -1,6 +1,6 @@
 /system script
 add comment="ipv4 and ipv6" dont-require-permissions=no name="add bogon" \
-    owner=jonik policy=\
+    owner=admin policy=\
     ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon source="/\
     ip firewall address-list\
     \nadd address=0.0.0.0/8 comment=\"This host on this network\" list=BOGON\
